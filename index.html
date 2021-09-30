@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="./assets/css/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <meta charset="UTF-8">
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>Memory</title>
+</head>
+<body>
+
+<header><div id="start" data-status="toStart" data-time="3 : 00" data-nbCardClick="0">Push here to start the game</div></header>
+
+<main>
+  <div class="line">
+    <figure>
+        <img src="./assets/img/back.jpg" alt="photo" id="img0" class="card" data-turn="0" data-verif="0"/>
+    </figure>
+    <figure>
+        <img src="./assets/img/back.jpg" alt="photo" id="img1" class="card" data-turn="0" data-verif="0"/>
+    </figure>
+    <figure>
+        <img src="./assets/img/back.jpg" alt="photo" id="img2" class="card" data-turn="0" data-verif="0"/>
+    </figure>
+    <figure>
+        <img src="./assets/img/back.jpg" alt="photo" id="img3" class="card" data-turn="0" data-verif="0"/>
+    </figure>
+    <figure>
+        <img src="./assets/img/back.jpg" alt="photo" id="img4" class="card" data-turn="0" data-verif="0"/>
+    </figure>
+    <figure>
+        <img src="./assets/img/back.jpg" alt="photo" id="img5" class="card" data-turn="0" data-verif="0"/>
+    </figure>
+    <figure>
+        <img src="./assets/img/back.jpg" alt="photo" id="img6" class="card" data-turn="0" data-verif="0"/>
+    </figure>
+  </div>
+  <div class="line">
+      <figure>
+          <img src="./assets/img/back.jpg" alt="photo" id="img7" class="card" data-turn="0" data-verif="0"/>
+      </figure>
+      <figure>
+          <img src="./assets/img/back.jpg" alt="photo" id="img8" class="card" data-turn="0" data-verif="0"/>
+      </figure>
+      <figure>
+          <img src="./assets/img/back.jpg" alt="photo" id="img9" class="card" data-turn="0" data-verif="0"/>
+      </figure>
+      <figure>
+          <img src="./assets/img/back.jpg" alt="photo" id="img10" class="card" data-turn="0" data-verif="0"/>
+      </figure>
+      <figure>
+          <img src="./assets/img/back.jpg" alt="photo" id="img11" class="card" data-turn="0" data-verif="0"/>
+      </figure>
+      <figure>
+          <img src="./assets/img/back.jpg" alt="photo" id="img12" class="card" data-turn="0" data-verif="0"/>
+      </figure>
+      <figure>
+          <img src="./assets/img/back.jpg" alt="photo" id="img13" class="card" data-turn="0" data-verif="0"/>
+      </figure>
+  </div>
+</main>
+
+
+<div id="alert" class="animate__animated animate__backInDown">
+    <div id="alert-content">
+        <p id="alertText"></p>
+        <p id="alertClose"><span id="alertCloseButton">OK</span></p>
+    </div>
+</div>
+
+<div id="myModal" class="modal animate__animated animate__backInDown">
+    <div id="modal-content">
+        <p id="welcome"></p>
+        <p id="line1"></p>
+        <p id="line2"></p>
+        <p id="line3"></p>
+        <div id="pushTheButton" class="pushTheButton"></div>
+    </div>
+</div>
+<script src="./assets/js/pack.js"></script>
+<script src="./assets/js/memory.js"></script>
+</body>
+</html>
